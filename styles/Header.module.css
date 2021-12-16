@@ -1,0 +1,64 @@
+.header {
+  width: 100%;
+  height: 50px;
+
+  box-shadow: rgb(0 0 0 / 20%) 0px 4px 8px, rgb(0 0 0 / 5%) 0px 0px 4px;
+  background-color: #fff;
+
+  position: fixed;
+  z-index: 2;
+}
+
+.header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  fill: #9147ff;
+  display: block;
+  margin: 0px 10px;
+}
+
+.category {
+  width: 24px;
+  height: 24px;
+  display: block;
+  margin: 0px 10px;
+}
+
+.category:hover {
+  fill: #9147ff;
+}
+
+.search {
+  width: 24px;
+  height: 24px;
+  display: block;
+  margin: 0px 10px;
+}
+
+.menuButton {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: block;
+  margin: 0px 10px;
+}
+
+.menu {
+  width: 24px;
+  height: 24px;
+}
